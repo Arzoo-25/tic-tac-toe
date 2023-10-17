@@ -41,7 +41,7 @@ const TicTacToe = () => {
             }
             val--  
         }
-        if( count1==3 || count2 == 3 || count3 == 3 || count4 == 3){
+        if( count1===3 || count2 === 3 || count3 === 3 || count4 === 3){
             setMessage(value+ "Wins!");
             if(value ==="⭕"){
                 let count = playerOneCount;
